@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테이블</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" width="50%" height="200" bordercolor="blue">
+        <!-- 열 제목 -->
+        <th>1열 이름</th>
+        <th>2열 이름</th>
+        <th>3열 이름</th>
+        <tr bgcolor="skyblue" align="center">
+            <td>1행 1열</td>
+            <td>1행 2열</td>
+            <td>1행 3열</td>
+        </tr>
+        <tr>
+            <td>2행 1열</td>
+            <td>2행 2열</td>
+            <td>2행 3열</td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center" bgcolor="orange">3행 1열</td>
+        </tr>
+    </table>
+    <hr>
+    <table style="width: 75%;">
+        <tr>
+            <!--테이블 열 합치기-->
+            <th colspan="4" style="background-color: aqua;">사용자 정보(회원명단)</th>
+        </tr>
+        <tr style="background-color: lightgrey;">
+            <th>구분</th>
+            <th>이름</th>
+            <th>나이</th>
+            <th>성별</th>
+        </tr>
+        <tr>
+            <!--테이블 행 합치기-->
+            <td rowspan="3">A반</td>
+            <td>홍길동</td>
+            <td>20</td>
+            <td>남자</td>
+        </tr>
+        <tr>
+            <td>김태극</td>
+            <td>65</td>
+            <td>남자</td>
+        </tr>
+        <tr>
+            <td>이다음</td>
+            <td>50</td>
+            <td>여자</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="width: 60%">
+        <from>
+            <fieldset>
+                <legend>계정 생성</legend>
+                <label for="user_id">아이디 : </label>
+                <input type="text" id="user_id" placeholder="아이디를 입력해주세요.">
+                <input type="button" value="확인">
+                <br>
+                <label for="user_pw">비밀번호 : </label>
+                <input type="password" id="user_pw">
+            </fieldset>
+            <fieldset>
+                <legend>필수입력</legend>
+                <label for="user_name">이름 : </label>
+                <input type="text" id="user_name">
+                <br>
+                <label for="user_birth">생년월일 : </label>
+                <input type="date" id="user_bitrh">
+                <br>
+                <label for="user_age">나이 : </label>
+                <input type="number" id="user_age">
+                <br>
+                <label for="user_sex">성별 : </label>
+                <input type="radio" name="sex" id="user_sex" value="male" checked>남자
+                <input type="radio" name="sex" id="user_sex" value="female">여자
+                <br>
+                <label for="user_hobby">취미 : </label>
+                <input type="checkbox" id="user_hobby" value="hiking" checked>등산
+                <input type="checkbox" id="user_hobby" value="fishing">낚시
+                <input type="checkbox" id="user_hobby" value="gaming">게임
+                <input type="checkbox" id="user_hobby" value="reading">독서
+                <br>
+                <label for="user_profile">프로필 이미지 등록 : </label>
+                <input type="file" name="" id="user_profile">
+                <br>
+                <label for="user_tel">전화번호 : </label>
+                <input type="tel" id="user_tel">
+                <br>
+                <label for="user_mail">이메일 : </label>
+                <input type="email" id="user_mail">
+            </fieldset>
+            <fieldset>
+                <legend>SNS (선택입력)</legend>
+                <label for="user_url">SNS 주소 : </label>
+                <input type="url" id="user_url">
+                <br>
+                <label for="user_bar">SNS 인기도 등급(1~5) : </label>
+                <input type="range" id="user_bar" min="1" max="5" value="1">
+                <br>
+                <label for="user_keyword">검색 키워드 : </label>
+                <input type="text" id="user_keyword">
+            </fieldset>
+            <fieldset>
+                <legend>추가 정보 (선택입력)</legend>
+                <label for="user_color">좋아하는 색 : </label>
+                <input type="color" id="user_color" value="black">
+                <br>
+                <label for="user_sleeptime">취침시간 : </label>
+                <input type="time" id="user_sleeptime">
+                <br>
+                <label for="user_alarm">희망 알람 날짜 및 시간 : </label>
+                <input type="datetime-local" id="user_alarm">
+            </fieldset>
+            <input type="submit" value="회원가입">
+            <input type="reset" value="다시입력">
+            <input type="button" value="이벤트버튼" onclick="window.open('templates/03/space.html')">
+        </from>
+    </div>
+</body>
+
+</html>

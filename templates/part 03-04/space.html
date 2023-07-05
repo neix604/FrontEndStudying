@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 요소</title>
+</head>
+<body>
+    <h1>블록 요소</h1>
+    <p style="border: 3px solid red;">
+        p태그는 자신의 영역 만큼만 차지한다. (display 속성값 블록 요소)<br>
+        p, div, h, ul, ol... display 속성값 블록 요소
+    </p>
+    <div style="border: 3px solid blue;">
+        <h2>div 요소를 적용한 스타일</h2>
+        <p>div 요소는 주로 여러 요소들의 스타일을 한 번에 적용하기 위해 사용됩니다.</p>
+    </div>
+    <p>
+        p태그는 자신의 영역 만큼만 차지한다. (display 속성값 블록 요소)<br>
+        p, div, h, ul, ol... display 속성값 블록 요소
+    </p>
+    <hr>
+    <h1>인라인 요소</h1>
+    <p>
+        <span style="background-color: black; color: white;">span</span>은 인라인 요소입니다.
+    </p>
+    <hr>
+    <h1>iframe 요소</h1>
+    <p>하나의 페이지에 서브 페이지 형태로 다른 페이지를 넣을 수 있습니다.</p>
+    <iframe src="./table.html" style="width: 100%; height: 360px; border: none;"></iframe>
+    <p>
+        <a href="./main.html" target="frame_trg">main 페이지로 이동</a>
+        <a href="./test.html" target="frame_trg">test 페이지로 이동</a>
+    </p>
+    <iframe src="./main.html" name="frame_trg" style="width: 90%; height: 400px;"></iframe>
+</body>
+</html>

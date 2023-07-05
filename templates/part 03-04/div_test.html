@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div 레이아웃 과제</title>
+    <style>
+        #logo {
+            width: 20%;
+            float: left;
+            background-color: green;
+            color: white;
+        }
+        #header {
+            width: 80%;
+            float: left;
+            background-color: rgb(255, 136, 0);
+            color: white;
+        }
+        #nav {
+            background-color: rgb(67, 177, 228);
+        }
+        #section1, #section2 {
+            width: 50%;
+            height: 300px;
+            float: left;
+            background-color: rgb(207, 207, 207);
+            line-height: 300px;
+        }
+        #footer {
+            background-color: brown;
+        }
+        #nav, #footer {
+            width: 100%;
+            clear: both;
+            color: white;
+        }
+        #logo, #header, #nav, #footer {
+            height: 100px;
+            line-height: 100px;
+        }
+        #logo, #header, #nav, #section1, #section2, #footer {
+            outline: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="logo">logo</div>
+    <div id="header">Header</div>
+    <div id="nav">Nav</div>
+    <div id="section1">section</div>
+    <div id="section2">section</div>
+    <div id="footer">Footer</div>
+</body>
+</html>
