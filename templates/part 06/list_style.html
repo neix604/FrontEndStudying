@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>목록 스타일</title>
+    <style>
+        .img {
+            list-style-image: url('./image/dot.png');
+        }
+        .ul1 {
+            list-style-type: square;
+        }
+        .ul2 {
+            list-style-type: none;
+        }
+        .ol1 {
+            list-style-type: lower-alpha;
+        }
+        .ol2 {
+            list-style-type: upper-roman;
+        }
+        .ul1 li::marker { /* class="ul1"의 불릿 기호의 색상만 변경 */
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>목록 스타일</h1>
+    <h2>square</h2>
+    <ul class="ul1">
+        <li>사과</li>
+        <li>배</li>
+        <li>감</li>
+        <li>귤</li>
+        <li>포도</li>
+    </ul>
+    <h2>none</h2>
+    <ul class="ul2">
+        <li>파이썬</li>
+        <li>자바</li>
+        <li>자바스크립트</li>
+        <li>C</li>
+        <li>C++</li>
+    </ul>
+    <h2>lower-alpha</h2>
+    <ol class="ol1">
+        <li>파이썬</li>
+        <li>자바</li>
+        <li>자바스크립트</li>
+        <li>C</li>
+        <li>C++</li>
+    </ol>
+    <h2>upper-roman</h2>
+    <ol class="ol2">
+        <li>파이썬</li>
+        <li>자바</li>
+        <li>자바스크립트</li>
+        <li>C</li>
+        <li>C++</li>
+    </ol>
+    <h2>image</h2>
+    <ul class="img">
+        <li>파이썬</li>
+        <li>자바</li>
+        <li>자바스크립트</li>
+        <li>C</li>
+        <li>C++</li>
+    </ul>
+</body>
+</html>

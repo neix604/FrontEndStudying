@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폰트 스타일</title>
+    <style>
+        /* 구글 웹 폰트 */
+        /* @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+        p {
+            font-family: 'Nanum Gothic', 돋움;
+        }
+        p.user_font {
+            font-size: 30px;
+        } */
+        body {
+            font-family: '맑은 고딕', 돋움, 굴림체;
+            font-size: 16px;
+        }
+        .user_font {
+            font-family: '궁서체', 돋움, 굴림체;
+        }
+        #user_em {
+            font-size: 1em;
+        }
+        h1 {
+            font-size: 2em;
+            
+        }
+        .accent {
+            font-variant: small-caps;
+        }
+        span {
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1>3em 크기의 제목입니다.</h1>
+    <p id="user_em">1em 크기의 내용입니다.</p>
+    <p>사용자 폰트 설정</p>
+    <p class="user_font">사용자 연습용 폰트</p>
+    <p><span>블루베리</span>는 항산화제인 안토시아닌과 폴리페놀을 다량 포함하고 있습니다.</p>
+    <p class="accent">example of English font</p>
+</body>
+</html>
