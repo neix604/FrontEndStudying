@@ -6,7 +6,8 @@
     <title>Document</title>
     <style>
         body {
-            background-image: url('./image/bg1.jpg');
+            background-image: url('/image/bg1.png');
+            background-repeat: repeat;
         }
         .text1 {
             color: rgb(255, 255, 255);
@@ -27,13 +28,13 @@
             padding: 15px;
             border: 5px solid rgb(228, 249, 5);
         }
-        .bg1, .bg2, .bg3 {
+        .bg1, .bg2, .bg3, .bg4 {
             border: 5px dotted red;
         }
         .bg1 {
             height: 500px;
             background-clip: border-box;
-            background-image: url('./image/cat1.jpg');
+            background-image: url('/image/bg4.jpg');
             /* background-size: cover; */
             background-size: 40% auto;
             background-repeat: no-repeat;
@@ -45,6 +46,9 @@
         }
         .bg3 {
             background-clip: content-box;
+        }
+        .bg4 {
+            background: url('/image/bg4.jpg') no-repeat center;
         }
         p {
             font-size: 16px;
@@ -70,6 +74,11 @@
             2004년에 쓴 ‘난 슈퍼푸드를 먹는다’라는 책의 제목에서 유래된 단어입니다.</p>
     </div><br>
     <div class="bg3">
+        <h1>슈퍼푸드의 유래</h1>
+        <p>슈퍼푸드는 인체 노화 분야의 세계적 권위자인 스티븐 프랫 박사가
+            2004년에 쓴 ‘난 슈퍼푸드를 먹는다’라는 책의 제목에서 유래된 단어입니다.</p>
+    </div><br>
+    <div class="bg4">
         <h1>슈퍼푸드의 유래</h1>
         <p>슈퍼푸드는 인체 노화 분야의 세계적 권위자인 스티븐 프랫 박사가
             2004년에 쓴 ‘난 슈퍼푸드를 먹는다’라는 책의 제목에서 유래된 단어입니다.</p>
