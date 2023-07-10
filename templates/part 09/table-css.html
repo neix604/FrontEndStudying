@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표(table) 스타일</title>
+    <style>
+        body{
+            font-family: "맑은 고딕", "굴림", '돋움';
+            font-size: 14px;
+        }
+        .table1{
+            border: 1px solid #000;
+            border-collapse: collapse;
+            width: 300px;
+            height: 400px;
+        }
+        .table1 td{
+            border: 1px dotted #000;
+            padding: 10px;
+            text-align: center;
+        }
+        .val1{vertical-align: top;}
+        .val2{vertical-align: bottom;}
+        .val3{vertical-align: middle;}
+    </style>
+</head>
+<body>
+    <table class="table1">
+        <caption>축구 경기 일정</caption>
+        <tr>
+            <td>지역</td>
+            <td>경기</td>
+            <td>중계</td>
+        </tr>
+        <tr>
+            <td>서울</td>
+            <td class="val1">서울FC vs 인천FC</td>
+            <td class="val1">SPOTV</td>
+        </tr>
+        <tr>
+            <td>부산</td>
+            <td class="val2">부산FC vs 울산FC</td>
+        </tr>
+        <tr class="val2">
+            <td>광주</td>
+            <td>광주FC vs 제주FC</td>
+        </tr>
+    </table>
+</body>
+</html>

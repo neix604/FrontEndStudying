@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 양식</title>
+    <link rel="stylesheet" href="/css/sign_up_form.css">
+    <style>
+        body {
+            font-family: 'Pretendard-Regular', 'Noto Sans KR', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>회원가입 양식</h1>
+    <div class="u_input">
+        <form>
+            <table>
+                <tr>
+                    <td class="label">이름</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="label">아이디</td>
+                    <td><input type="text"> <button>중복확인</button></td>
+                </tr>
+                <tr>
+                    <td class="label">비밀번호</td>
+                    <td><input type="text">
+                        <p>※ 비밀번호는 <span>문자, 숫자, 특수문자(~!@#$%^&*)의 조합 10~16자리</span>로 입력이 가능합니다.</p></td>
+                </tr>
+                <tr>
+                    <td class="label">비밀번호 확인</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="label">이메일</td>
+                    <td><input type="text"> @ <input type="text"> 
+                    <select>
+                        <option>직접입력</option>
+                    </select> <button>이메일 중복확인</button></td>
+                </tr>
+                <tr>
+                    <td class="label">학년/반</td>
+                    <td><select>
+                        <option>선택</option>
+                    </select> 학년 <select>
+                        <option>선택</option>
+                    </select> 반</td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div class="u_button">
+        <button>가입취소</button>
+        <button>회원가입</button>
+    </div>
+</body>
+
+</html>
