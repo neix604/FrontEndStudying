@@ -1,0 +1,23 @@
+.origin {
+    width: 200px;
+    height: 135px;
+    border: 1px solid #000;
+    float: left;
+    margin: 40px;
+}
+
+.move_x:hover {
+/*     -webkit-transform: translateX(50px);
+    -moz-transform :translateX(50px);
+    -ms-transform: translateX(50px);
+    -o-transform: translateX(50px); */
+    transform: translateX(50px);
+}
+
+.move_y:hover {
+    transform: translateY(50px);
+}
+
+.move_xy:hover {
+    transform: translate(50px, 50px);
+}

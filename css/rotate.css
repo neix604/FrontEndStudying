@@ -1,0 +1,33 @@
+div {
+    float: left;
+}
+
+.origin1, .origin2 {
+    width: 210px;
+    height: 200px;
+    border: 1px solid #00f;
+    margin: 40px;
+    float: left;
+    perspective: 200px;
+}
+
+.rotate1:hover {
+    transform: rotate(25deg);
+}
+
+.rotate2:hover {
+    transform: rotate(-40deg);
+}
+
+.rotate_x:hover {
+    transform: rotateX(30deg);
+}
+.rotate_y:hover {
+    transform: rotateY(30deg);
+}
+.rotate_z:hover {
+    transform: rotateZ(30deg);
+}
+.rotate_xyz:hover {
+    transform: rotate3d(2.5, 1.2, -1.2, 45deg);
+}

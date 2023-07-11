@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Pretendard-Regular', 'Noto Sans KR', sans-serif;
+}
+
+#ex > div {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 5px 10px;
+    padding: 5px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#ex:hover > div {
+    height: 400px;
+}
+
+#ex .ease {
+    transition: height 2s ease;
+}
+
+.linear {
+    transition: height 2s linear;
+}
+
+.ease-in {
+    transition: height 2s ease-in;
+}
+
+.ease-out {
+    transition: height 2s ease-out;
+}
+
+.ease-in-out {
+    transition: height 2s ease-in-out;
+}
+
+#ex1 {
+    position: relative;
+    clear: both;
+    width: 500px;
+    height: 150px;
+
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.box1 {
+    font-size: 12px;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    background-color: rgb(202, 202, 202);
+}
+
+#ex1:hover .box1 {
+    transform: rotate(730deg);
+    margin-left: 450px;
+}
+
+p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#no-delay {
+    transition-duration: 2s;
+    border: 1px solid #f00;
+}
+
+#delay {
+    transition-duration: 2s;
+    transition-delay: 0.2s;
+    border: 1px solid #00f
+}

@@ -12,9 +12,9 @@ div.u_input {
 
 div.u_button{
     width: 700px;
-    margin-top: 80px;
+    margin-top: 30px;
     margin-left: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     border-bottom: 1px solid black;
     text-align: center;
 }
@@ -37,6 +37,7 @@ td {
 
 p {
     font-size: 0.8em;
+    color: blue;
 }
 
 span {
@@ -47,18 +48,17 @@ button {
     background-color: black;
     color: white;
     border: none;
+    font-family: 'Pretendard-Regular';
 }
 
 div.u_button button {
     width: 200px;
-    height: 34px;
+    height: 40px;
     border: 2px solid black;
     background-color: white;
     color: black;
     font-weight: bold;
     font-size: 1.2em;
-    border-top-left-radius: 17px;
-    border-top-right-radius: 17px;
-    border-bottom-left-radius: 17px;
-    border-bottom-right-radius: 17px;
+    border-radius: 20px;
+    margin: 20px;
 }

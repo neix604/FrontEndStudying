@@ -1,0 +1,19 @@
+.origin {
+    width: 200px;
+    height: 135px;
+    border: 1px solid black;
+    margin: 40px;
+    float: left;
+}
+
+.scale_x:hover {
+    transform: scaleX(2);
+}
+
+.scale_y:hover {
+    transform: scaleY(2);
+}
+
+.scale_xy:hover {
+    transform: scale(0.7);
+}
