@@ -1,0 +1,43 @@
+
+input {
+  width:300px;
+  height:38px;
+  text-align:center;
+}
+
+#bttn {
+  padding : 10px 20px;
+  border-style: 1px solid #ccc;  
+}
+
+#result {
+  margin-top:50px;
+  padding:15px 20px;
+  background-color:azure;
+  text-align:center;
+  font-size:2.5em;
+  font-weight: bold;
+}
+
+#contents {
+  display: flex;
+  width: 400px;
+  height: 300px;
+  justify-content: space-between;
+}
+
+.arrow {
+  z-index:100;
+  font-size:2em;
+  padding:10px;
+  background:#ddd;
+  color:#222;
+  opacity:0.2;
+  line-height: 270px;
+  user-select: none;
+}
+
+.arrow:hover {
+  opacity:1;
+  cursor: pointer;
+}

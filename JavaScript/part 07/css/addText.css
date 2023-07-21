@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Pretendard-Regular', 'Noto Sans KR', sans-serif;
+}
+
+#container {
+  padding: 10px 10px 30px;
+  width: 600px;
+  border-bottom: 2px solid black;
+}
+
+button {
+  margin-top: 20px;
+  padding: 5px 10px 5px;
+  font-family: inherit;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
