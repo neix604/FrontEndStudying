@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Pretendard-Regular', 'Noto Sans KR', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  margin: 50px auto;
+  width: 600px;
+  padding: 10px 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+#bookInfo {
+  margin-top: 40px;
+}
+
+#bookInfo li {
+  font-size: 1em;
+  line-height: 3;
+}
+
+#bookInfo label {
+  display: inline-block;
+  width: 50px;
+}
+
+#bookInfo input {
+  width: 450px;
+  padding: 5px;
+}
+
+.click {
+  width: 150px;
+  margin: 20px 55px;
+  font-family: inherit;
+  font-size: 1em;
+  padding: 5px 10px;
+}
+
+#bookList {
+  width: 500px;
+  margin-top: 80px;
+  position: relative;
+}
+
+#bookList li {
+  font-size: 1em;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+.delButton:hover {
+  cursor: pointer;
+}
+
+.delButton {
+  font-family: inherit;
+  font-size: 0.8em;
+  position: absolute;
+  right: 10px;
+  border: 0;
+  background-color: transparent;
+}

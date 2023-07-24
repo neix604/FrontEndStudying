@@ -72,4 +72,4 @@ arrows.forEach( (arrow) => {
 window.addEventListener('contextmenu', (event) => {
     event.preventDefault();
     alert('우클릭을 할 수 없습니다.');
-})
+});
